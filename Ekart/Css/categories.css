@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient((45deg, rgb(246 234 234), #c2b2c6));
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.card{
+    width: 200px;
+    border-radius: 5px;
+    height: 250px;
+    opacity: 0.9;
+}
+
+.card:hover{
+    opacity: 1;
+    cursor: pointer;
+    width: 202px;
+    height: 252px;
+}
+
+.card1{
+    background-image: url(/Ekart/images/Men.jpg);
+    background-size: cover;
+}
+
+.card1 h4, .card2 h4, .card3 h4, .card4 h4{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 100%;
+    letter-spacing: 2;
+    background-color: black;
+}
+
+.card2{
+    background-image: url(/Ekart/images/Women.jpg);
+    background-size: cover;
+}
+
+.card3{
+    background-image: url(/Ekart/images/Electronics.jpg);
+    background-size: cover;
+}
+
+.card4{
+    background-image: url(/Ekart/images/Furniture.jpg);
+    background-size: cover;
+}
