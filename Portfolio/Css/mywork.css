@@ -1,30 +1,30 @@
-*{
+* {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 
-body{
+body {
     background-image: url(../Images/5.jpg);
     background-size: cover;
     color: white;
     margin: 0;
 }
 
-.projects h1{
+.projects h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 10%;
 }
 
-.main{
+.main {
     display: flex;
     justify-content: space-around;
 
 }
 
-.p{
+.p {
     width: 380px;
     /* border: 1px solid white; */
     height: 250px;
@@ -32,7 +32,7 @@ body{
     margin-bottom: 10%;
 }
 
-.p1{
+.p1 {
     background-image: url(../Images/mw1.png);
     background-size: cover;
     display: flex;
@@ -40,7 +40,7 @@ body{
     align-items: flex-end;
 }
 
-.p2{
+.p2 {
     background-image: url(../Images/mw2.png);
     background-size: cover;
     display: flex;
@@ -48,7 +48,15 @@ body{
     align-items: flex-end;
 }
 
-.p1 a h3{
+.p3 {
+    background-image: url(../Images/mw3.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.p1 a h3 {
     background-color: black;
     padding: 2px 78px;
     color: white;
@@ -56,18 +64,30 @@ body{
     margin-bottom: 15px;
 }
 
-.p1 a{
+.p1 a {
     text-decoration: none;
 }
 
-.p2 a h3{
+.p2 a h3 {
     background-color: black;
     padding: 2px 104px;
     color: white;
     letter-spacing: 1;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
 
-.p2 a{
+.p2 a {
+    text-decoration: none;
+}
+
+.p3 a h3 {
+    background-color: black;
+    padding: 2px 93px;
+    color: white;
+    letter-spacing: 1;
+    margin-bottom: 15px;
+}
+
+.p3 a {
     text-decoration: none;
 }

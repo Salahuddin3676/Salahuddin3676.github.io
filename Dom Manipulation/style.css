@@ -1,0 +1,43 @@
+.one {
+    background-color: aqua;
+    transition: all 3s;
+}
+
+.two {
+    background-color: cornsilk;
+    transition: all 3s;
+}
+
+.three {
+    background-color: cadetblue;
+    transition: all 3s;
+}
+
+.four {
+    background-color: coral;
+    transition: all 3s;
+}
+
+.five {
+    background-color: goldenrod;
+    transition: all 3s;
+}
+
+button {
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 120px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+}
+
+.container {
+    margin: 20px auto;
+    border: 1px solid black;
+    width: 340px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: floralwhite;
+}
